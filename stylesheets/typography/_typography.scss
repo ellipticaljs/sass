@@ -274,6 +274,7 @@
       &:hover,&:active,&.active{
         border-left:map-get($Typography,blockquote-border-left) $_info-color !important;
       }
+      color:$_info-color;
     }
     &.warning{
       border-left:map-get($Typography,blockquote-border-left) $_warning-color !important;
@@ -281,6 +282,7 @@
       &:hover,&:active,&.active{
         border-left:map-get($Typography,blockquote-border-left) $_warning-color !important;
       }
+      color:$_warning-color;
     }
     &.success{
       border-left:map-get($Typography,blockquote-border-left) $_success-color !important;
@@ -288,6 +290,7 @@
       &:hover,&:active,&.active{
         border-left:map-get($Typography,blockquote-border-left) $_success-color !important;
       }
+      color:$_success-color;
     }
     &.error{
       border-left:map-get($Typography,blockquote-border-left) $_error-color !important;
@@ -295,6 +298,7 @@
       &:hover,&:active,&.active{
         border-left:map-get($Typography,blockquote-border-left) $_error-color !important;
       }
+      color:$_error-color;
     }
   }
 
