@@ -78,7 +78,6 @@
   position: relative;
   cursor: pointer !important;
   display: inline-block;
-  outline: 0;
   &.next, &.prev, &.down, &[data-ui=dropdown], &.up {
     &:after {
       font-family: $_icon-font-family;
@@ -98,7 +97,6 @@
   @include web-component($component:$component);
   &.active {
     cursor: default !important;
-    outline: 0;
   }
 }
 
